@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-width: 1200px;
 }
 
 a {
@@ -36,10 +37,60 @@ img {
 
 .first-section {
     background-color: #1F2937;
-    min-height: 400px;
+    min-height: 500px;
     margin-left: 100px;
     margin-right: 100px;
 }
+
+.first-section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section-left {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.first-section-right {
+    display: flex;
+    flex: 1 1 auto;
+    margin-right: 100px;
+}
+
+.clouds {
+    width: auto;
+    height: 200px;
+    flex-grow: 0;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 
 
 
